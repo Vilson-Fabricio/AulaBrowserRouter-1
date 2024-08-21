@@ -1,2 +1,8 @@
 dark side
 animal
+.cabeca{
+    text-align: center;
+    background-color: rgb(37, 36, 45);
+   color: brown;
+   border-radius: 1cm;
+}

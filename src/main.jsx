@@ -7,7 +7,6 @@ import Oferta from './Oferta'
 import './globals.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div class="cabeca">
     <BrowserRouter>
        <Routes>
            <Route path="/Home" element={<Home/>}/>
@@ -15,7 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
            <Route path="/ofertas" element={<Oferta/>}/>
        </Routes>
     </BrowserRouter>
-    </div>
 
   </React.StrictMode>,
 )

@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function ListarProdutos({Discoteca}){
+export default function ListarProdutos(){
     const[ListaProdutos, setProdutos] = useState([
         {id:1, nome:'Wish You Were Here', preco:'R$ 123,00', banda:'Pink Floyd', genero:['Rock','RockPop'], lancamento: 1975},
         {id:2, nome:'The Dark Side of the Moon', preco:'R$ 343,00', banda:'Pink Floyd', genero:['Eletronica','Pop'], lancamento: 1973},
